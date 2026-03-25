@@ -10,6 +10,7 @@ Complete this guide before diving into the hackathon challenges. Budget **30 min
 - [ ] **GitHub account** with Copilot Enterprise license active
 - [ ] **Your codebase** cloned locally and opened in VS Code
 - [ ] **Signed in** to GitHub in VS Code (check the Accounts icon in the bottom-left sidebar)
+- [ ] **Copilot CLI** installed (optional — [setup instructions below](#copilot-cli-setup-optional))
 
 ---
 
@@ -92,6 +93,52 @@ Before starting challenges, understand the four ways to interact with Copilot:
 - **How:** Press `Ctrl+Shift+I` to open the Chat panel in Agent mode, or type in Chat and switch to Agent mode using the mode picker
 - **Best for:** Implementing features across multiple files, complex refactoring, bug investigation
 - **Note:** Review each step the agent takes — you can accept, reject, or redirect
+
+### 5. Copilot CLI (Terminal Agent)
+- **What:** A full agentic coding agent in your terminal — the same plan/execute/iterate workflow as VS Code Agent Mode, but from the command line
+- **How:** Run `copilot` in your terminal from your project directory
+- **Best for:** Developers who prefer the terminal, CI/CD scripting, quick tasks without opening an IDE
+- **Key features:** Plan mode (`Shift+Tab`), `/init` to bootstrap project instructions, `/review` for code review, `/diff` to review changes
+
+---
+
+## Copilot CLI Setup (Optional)
+
+Copilot CLI gives you an agentic coding experience directly in your terminal. It can plan, write code, run commands, and review changes — just like Agent Mode in VS Code.
+
+### Install
+
+**Windows (WinGet):**
+```powershell
+winget install GitHub.Copilot
+```
+
+**All platforms (npm)** — requires Node.js 22+:
+```bash
+npm install -g @github/copilot
+```
+
+**macOS / Linux (Homebrew):**
+```bash
+brew install copilot-cli
+```
+
+> **Windows note:** Copilot CLI requires PowerShell v6+. If you're on PowerShell 5.1, install [PowerShell Core](https://aka.ms/powershell) (`pwsh`).
+
+### Authenticate
+
+1. Run `copilot` in your terminal
+2. Confirm you trust the current directory
+3. Use the `/login` command and follow the browser-based authentication flow
+
+### Verify
+
+1. Navigate to your project directory
+2. Run `copilot`
+3. Type a test prompt like: `What is this project about?`
+4. If you get a response, you're set! Try `/init` to generate custom instructions for your repo.
+
+> **Note:** If Copilot CLI doesn't activate, your organization admin may need to enable the Copilot CLI policy. Check with your GitHub admin.
 
 ---
 

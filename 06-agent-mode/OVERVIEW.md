@@ -13,6 +13,8 @@ Agent mode turns Copilot from a suggestion engine into an autonomous coding agen
 
 You stay in control: every file edit and terminal command requires your approval.
 
+> **Terminal alternative:** GitHub Copilot CLI provides the same agentic workflow directly from your terminal. If you prefer the command line over VS Code, check out the [Copilot CLI Agent challenge](challenge-4-copilot-cli-agent.md).
+
 ## How to Use Agent Mode
 
 1. Open the Chat panel (`Ctrl+Alt+I`) or press `Ctrl+Shift+I`
@@ -34,6 +36,7 @@ Pick these if your team:
 | [Multi-File Feature](challenge-1-multi-file-feature.md) | Intermediate | 60-90 min | Implement a feature across multiple files |
 | [Bug Investigation](challenge-2-bug-investigation.md) | Intermediate | 45-60 min | Let the agent find and fix a bug |
 | [End-to-End Workflow](challenge-3-end-to-end-workflow.md) | Advanced | 60-90 min | Plan, implement, test, and document in one session |
+| [Copilot CLI Agent](challenge-4-copilot-cli-agent.md) | Intermediate | 45-60 min | Use Copilot CLI as a terminal-native coding agent |
 
 ## Key Agent Mode Features
 
@@ -42,6 +45,7 @@ Pick these if your team:
 - **Self-correction** — When builds fail or tests break, Agent automatically attempts fixes
 - **Context awareness** — Agent uses `@workspace` context to understand your project before making changes
 - **`#file` references** — Point Agent at specific files for context or as pattern examples
+- **Terminal-native agent** — Copilot CLI (`copilot`) provides the same agentic workflow from the command line, with plan mode, built-in agents, and `/review` for code review
 
 ## AI-Assisted Dev Kit Resources
 

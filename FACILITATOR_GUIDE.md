@@ -42,6 +42,7 @@ Adapt the following phases to fit your session length. Each phase is self-contai
    - **Copilot Chat** — Ask questions, explain code, get suggestions (`Ctrl+Alt+I`)
    - **Inline Chat** — Quick edits in context (`Ctrl+I`)
    - **Agent Mode** — Multi-step autonomous coding (`Ctrl+Shift+I`)
+   - **Copilot CLI** — Terminal-native agentic coding (`copilot` command) — plan mode, `/init`, `/review`, built-in agents
    - **Context references** — `@workspace`, `#file`, `#selection`, `@terminal`
    - **Slash commands** — `/tests`, `/fix`, `/explain`, `/doc`
    - **Enterprise features** — Bing web search, knowledge bases, PR summaries
@@ -75,7 +76,7 @@ Adapt the following phases to fit your session length. Each phase is self-contai
 - "Have you tried using `@workspace` to give Copilot more context?"
 - "What's the most useful thing Copilot has done so far?"
 - "Have you tried Agent mode yet?"
-- "Have you tried any of the custom agents from the AI-Assisted Dev Kit?"
+- "Has anyone tried Copilot CLI in the terminal? How does it compare to Agent mode in VS Code?"
 
 ### Mid-Session Check-in (optional)
 
@@ -87,8 +88,17 @@ Adapt the following phases to fit your session length. Each phase is self-contai
 **Facilitator notes:**
 - Highlight common wins across teams
 - Address any shared pain points
-- Suggest remaining challenges based on earlier experiences
-- If teams finished early: point them to Agent Mode challenges or the Beast Mode agent in the dev kit
+- Suggest afternoon challenges based on morning experiences
+- If teams finished early: point them to Agent Mode challenges or stretch goals
+- If teams haven't tried the CLI: suggest the Copilot CLI challenge for the afternoon block
+
+### 1:00 – 3:30 · Challenge Block 2 (2.5 hrs)
+
+- Encourage teams to try a different challenge track
+- Push teams toward Agent Mode if they haven't tried it
+- Suggest Copilot CLI as an alternative for terminal-focused developers
+- At 2:30, give a **60-minute warning** for showcase prep
+- Remind teams to prepare a 3-5 minute demo of their work
 
 ### Team Showcase
 
