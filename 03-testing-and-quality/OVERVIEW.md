@@ -24,6 +24,17 @@ Pick these if your team wants to:
 - **`@workspace`** — Discover existing test conventions and untested code
 - **`#file` references** — Point Copilot at existing test files to match style
 
+## AI-Assisted Dev Kit Resources
+
+If you've added the [AI-Assisted Dev Kit](../resources/AI-assisted_dev_kit/) to your repository, these resources are especially useful for this track:
+
+| Resource | Type | How to Use |
+|----------|------|------------|
+| `Tester` agent | Agent | Invoke in Agent mode for comprehensive end-to-end testing, Playwright automation, and test result documentation |
+| `/browser-test` | Prompt | Run for structured browser-based E2E test creation using Playwright |
+
+> **Tip:** The `Tester` agent does not modify application code — it focuses exclusively on testing, documentation, and reporting findings. Use it alongside the `Developer` agent for a complete test-driven workflow.
+
 ## Tips
 
 - **Always specify your test framework** — "Write tests using pytest" vs. just "write tests"

@@ -135,6 +135,7 @@ Do your own final review:
 - **Accept that it won't be perfect** — Even a great Agent session produces code that needs human polish. The goal is 80-90% done, not 100%
 - **Time-box each phase** — If implementation takes too long, simplify scope rather than skipping testing
 - **Document your prompts** — The prompts you craft for E2E Agent workflows are reusable. Save the good ones
+- **Use the Dev Kit agents** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), chain the purpose-built agents: use `/dev` or the `Developer` agent for implementation, switch to the `Tester` agent for Phase 3 testing, and invoke the `Architect` agent for documentation and architecture summaries
 - **Compare with manual work** — Ask yourself: "How long would this have taken without Agent mode?" The answer is often eye-opening
 
 ## Self-Assessment Checklist

@@ -121,6 +121,7 @@ Run tests to confirm everything still works.
 - **Run tests after each change** — Catch breakage early while, you remember what changed
 - **Use Inline Chat for surgical edits** — Select the specific code, `Ctrl+I`, describe the change
 - **Let Copilot see the full file** — Open the file fully (don't just paste code into Chat) so Copilot understands the context
+- **Use the `Developer` agent for test-safe refactoring** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), the `Developer` agent follows a Red-Green-Refactor TDD cycle, running tests automatically after each change
 
 ## Self-Assessment Checklist
 

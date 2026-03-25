@@ -108,6 +108,8 @@ Based on our architecture review, generate a summary document with:
 - **Correct Copilot's misunderstandings** — The first analysis may have inaccuracies. Correcting them in follow-ups improves all subsequent responses
 - **Use `#file` for deep dives** — When Copilot identifies a problem area, use `#file:path/to/module` to zoom in
 - **Compare with documentation** — If you have architecture docs, paste key sections into Chat and ask Copilot to compare the docs with the actual code
+- **Use the `Architect` agent** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), switch to the `Architect` agent in Agent mode for deeper architectural analysis and documentation
+- **Use the `/create-architecture-diagram` prompt** — Quickly generate a Mermaid architecture diagram from your codebase with a single command
 - **Get visual** — Ask Copilot to generate text-based diagrams (Mermaid syntax works well): `Create a Mermaid diagram showing the module dependencies`
 
 ## Self-Assessment Checklist
