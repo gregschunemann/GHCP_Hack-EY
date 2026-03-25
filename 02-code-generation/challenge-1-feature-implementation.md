@@ -125,6 +125,7 @@ Check for:
 - **Open reference files** — Keep files with similar patterns open in other tabs. Copilot draws context from open editors
 - **Use `#selection`** — Select code and reference it in Chat: `Explain #selection and then refactor it to also handle [new case]`
 - **Partial accept** — Press `Ctrl+→` (Cmd+→ on Mac) to accept a suggestion word-by-word instead of all-at-once
+- **Use the `/dev` prompt or `Developer` agent** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), run `/dev` in Agent mode for a structured development workflow (context discovery → research → plan → implement → test). Or switch to the `Developer` agent for spec-driven, TDD-focused implementation
 - **Reject and re-prompt** — If the suggestion is wrong, press `Esc`, refine your comment, and try again. Copilot learns from the context you build
 
 ## Self-Assessment Checklist

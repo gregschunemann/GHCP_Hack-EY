@@ -25,17 +25,19 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
 
 ---
 
-## Run-of-Show
+## Event Flow
 
-### 9:00 – 9:30 · Kickoff (30 min)
+Adapt the following phases to fit your session length. Each phase is self-contained — run as many as time allows.
+
+### Kickoff
 
 **Talking Points:**
-1. **Welcome & goals** (5 min)
+1. **Welcome & goals**
    - "Today's goal: learn GitHub Copilot by shipping real work on your own codebase"
    - This isn't a competition — focus on learning and experimenting
-   - By end of day, every team should have something to showcase
+   - By end of the session, every team should have something to showcase
 
-2. **Copilot feature walkthrough** (15 min) — Live demo covering:
+2. **Copilot feature walkthrough** — Live demo covering:
    - **Inline completions** — Type a comment, let Copilot complete the code
    - **Copilot Chat** — Ask questions, explain code, get suggestions (`Ctrl+Alt+I`)
    - **Inline Chat** — Quick edits in context (`Ctrl+I`)
@@ -45,20 +47,21 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
    - **Slash commands** — `/tests`, `/fix`, `/explain`, `/doc`
    - **Enterprise features** — Bing web search, knowledge bases, PR summaries
 
-3. **Challenge structure walkthrough** (10 min)
+3. **Challenge structure walkthrough**
    - Explain the 6 challenge tracks and the BYOC format
    - Show how to navigate this repo
    - Emphasize: "Pick challenges relevant to YOUR codebase — you don't need to do them all"
    - Point out the [Prompt Library](resources/prompt-library.md) and [Cheat Sheet](resources/copilot-cheat-sheet.md)
+   - Highlight the [AI-Assisted Dev Kit](resources/AI-assisted_dev_kit/) and encourage teams to copy it into their repos
 
-### 9:30 – 10:00 · Setup (30 min)
+### Setup Phase
 
 - Walk teams through the [Getting Started guide](00-getting-started/SETUP.md)
 - Circulate and help with any access/config issues
 - Have teams complete the warm-up exercises before moving to challenges
 - **Key check:** Every team member can open Copilot Chat and get a response
 
-### 10:00 – 12:00 · Challenge Block 1 (2 hrs)
+### Challenge Block(s)
 
 - Teams self-select challenges from the menu
 - Facilitators float between teams:
@@ -66,6 +69,7 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
   - Share prompt tips when teams get stuck
   - Encourage teams to try the `@workspace` context reference early — it's a game-changer
   - Remind teams to document effective prompts and interesting results
+  - Point teams to the [AI-Assisted Dev Kit](resources/AI-assisted_dev_kit/) for ready-made agents, prompts, and instructions
 
 **Check-in prompts to ask teams:**
 - "What challenge are you working on?"
@@ -74,12 +78,10 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
 - "Have you tried Agent mode yet?"
 - "Has anyone tried Copilot CLI in the terminal? How does it compare to Agent mode in VS Code?"
 
-### 12:00 – 12:45 · Lunch (45 min)
-
-### 12:45 – 1:00 · Mid-Day Check-in (15 min)
+### Mid-Session Check-in (optional)
 
 **Quick round-robin (2 min per team):**
-- What challenge did you work on this morning?
+- What challenge did you work on?
 - What's one thing Copilot did really well?
 - What's one thing that surprised you (good or bad)?
 
@@ -98,7 +100,7 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
 - At 2:30, give a **60-minute warning** for showcase prep
 - Remind teams to prepare a 3-5 minute demo of their work
 
-### 3:30 – 4:15 · Team Showcase (45 min)
+### Team Showcase
 
 **Format:** Each team gets 3-5 minutes to present.
 
@@ -109,11 +111,11 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
 4. One "aha moment" and one limitation you hit
 
 **Facilitator tips:**
-- Keep time strictly — use a visible timer
+- Keep time — use a visible timer
 - Encourage applause/reactions after each team
 - Note common themes across presentations for the retro
 
-### 4:15 – 4:30 · Retro & Wrap-up (15 min)
+### Retro & Wrap-up
 
 **Discussion prompts:**
 - "What's one thing you'll start using Copilot for tomorrow?"
@@ -139,7 +141,7 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
 | Copilot gives poor suggestions | Check the context: are they using `@workspace`? Is the prompt specific enough? Suggest the [Prompt Library](resources/prompt-library.md) |
 | Team is stuck on setup | Pair them with a team that's already running; check [Troubleshooting](resources/troubleshooting.md) |
 | Team finishes challenges early | Point them to Agent Mode track, stretch goals, or ask them to help other teams |
-| Copilot isn't activating | Check license, extension version, network connectivity. See [Troubleshooting](resources/troubleshooting.md) |
+| Copilot isn't activating | Check license, network connectivity, and VS Code sign-in status. See [Troubleshooting](resources/troubleshooting.md) |
 
 ### Team Composition Suggestions
 

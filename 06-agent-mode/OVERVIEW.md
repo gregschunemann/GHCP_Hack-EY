@@ -47,6 +47,21 @@ Pick these if your team:
 - **`#file` references** — Point Agent at specific files for context or as pattern examples
 - **Terminal-native agent** — Copilot CLI (`copilot`) provides the same agentic workflow from the command line, with plan mode, built-in agents, and `/review` for code review
 
+## AI-Assisted Dev Kit Resources
+
+If you've added the [AI-Assisted Dev Kit](../resources/AI-assisted_dev_kit/) to your repository, these resources take agent mode to the next level:
+
+| Resource | Type | How to Use |
+|----------|------|------------|
+| `Developer` agent | Agent | Spec-driven, TDD-focused implementation with built-in quality gates and test validation |
+| `Tester` agent | Agent | End-to-end testing, Playwright automation, and structured test result documentation |
+| `Architect` agent | Agent | Architecture planning, documentation, and design pattern guidance |
+| `Beast Mode` agent | Agent | Persistent, autonomous execution — keeps working until the full objective is resolved |
+| `/dev` | Prompt | Structured task-driven development workflow: context → research → plan → implement → test |
+| `/execute-tasks` | Prompt | Execute a pre-planned task list from your project's task tracker |
+
+> **Tip:** The dev kit agents are purpose-built personas for agent mode. The `Developer` agent follows spec-driven TDD, the `Tester` agent stays focused on testing only, and the `Architect` agent won't touch source code. Use the right agent for each phase of your workflow.
+
 ## Tips
 
 - **Start with a detailed prompt** — Agent mode output quality scales directly with prompt quality

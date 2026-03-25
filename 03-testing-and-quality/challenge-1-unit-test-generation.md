@@ -105,6 +105,7 @@ Explain what the bug is and suggest a fix.
 - **Name tests descriptively** — If Copilot generates `test1`, `test2`, ask it to rename: `Rename tests using the pattern: test_[method]_[scenario]_[expected result]`
 - **Verify assertions are correct** — AI-generated tests sometimes assert wrong values. Read each assertion carefully
 - **Test the test** — Temporarily break the function under test and re-run; if the test still passes, the assertion is wrong
+- **Use the `Tester` agent** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), switch to the `Tester` agent in Agent mode for systematic test creation, Playwright automation, and structured test result documentation
 - **Use existing tests as few-shot examples** — The more test files you reference, the more consistent the output
 
 ## Self-Assessment Checklist

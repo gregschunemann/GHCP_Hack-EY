@@ -130,6 +130,7 @@ Copy the final ADR into your project. Common locations:
 - **Be specific about constraints** — Tell Copilot your team size, deployment environment, performance requirements, and budget — these shape the trade-off analysis
 - **Document the "No" decisions too** — ADRs for "we considered X and decided not to adopt it" are just as valuable as "we chose Y"
 - **Link ADRs to code** — Reference specific files/modules that would be affected by the decision
+- **Use the `Architect` agent** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), switch to the `Architect` agent in Agent mode. It specializes in strategic technical planning, trade-off analysis, and architectural documentation — ideal for ADR generation
 - **Keep a running folder** — Start a `docs/adr/` directory in your repo today
 
 ## Self-Assessment Checklist
