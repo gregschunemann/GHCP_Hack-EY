@@ -109,6 +109,70 @@ These features are available with GitHub Copilot Enterprise:
 
 ---
 
+## Copilot CLI (Terminal Agent)
+
+Copilot CLI is a full agentic coding agent in your terminal. Launch it by running `copilot` from your project directory.
+
+### Modes
+
+Cycle between modes with `Shift+Tab`:
+
+| Mode | What It Does |
+|------|-------------|
+| **Standard** | Ask/execute mode — Copilot plans and executes tasks with your approval |
+| **Plan** | Copilot builds a structured implementation plan before writing any code |
+| **Autopilot** | Fully autonomous execution — Copilot works without approval prompts |
+
+### Key Slash Commands
+
+| Command | What It Does |
+|---------|-------------|
+| `/init` | Initialize custom instructions and agentic features for this repo |
+| `/diff` | Review all changes made in the current directory |
+| `/review [PROMPT]` | Run the code review agent to analyze changes |
+| `/plan [PROMPT]` | Create an implementation plan before coding |
+| `/compact` | Compress conversation history to free up context |
+| `/context` | Show token usage visualization |
+| `/model` | Select a different AI model |
+| `/agent` | Browse and select from available agents |
+| `/mcp` | Manage MCP server connections |
+| `/resume` | Resume a previous session |
+| `/session` | Show session info, checkpoints, files, plan |
+| `/fleet [PROMPT]` | Run parts of a task in parallel subagents |
+| `/delegate [PROMPT]` | Delegate changes to a remote repo via AI-generated PR |
+| `/share` | Export session to Markdown file or GitHub gist |
+
+### Built-in Agents
+
+| Agent | Model | What It Does |
+|-------|-------|-------------|
+| **code-review** | Claude Sonnet 4.5 | Reviews diffs for bugs, security issues, and logic errors |
+| **explore** | Claude Haiku 4.5 | Fast codebase exploration — searches and answers questions |
+| **general-purpose** | Claude Sonnet 4.5 | Complex multi-step tasks in a separate context window |
+| **research** | Claude Sonnet 4.6 | Deep research across codebase, repos, and web |
+| **task** | Claude Haiku 4.5 | Runs commands (tests, builds, lints) with brief summaries |
+
+### Keyboard Shortcuts & Syntax
+
+| Shortcut | Action |
+|----------|--------|
+| `Shift+Tab` | Cycle modes: standard → plan → autopilot |
+| `Esc` | Stop current operation |
+| `Ctrl+T` | Toggle reasoning visibility |
+| `!command` | Run a shell command directly (bypasses Copilot) |
+| `@path/to/file` | Include file contents as context |
+
+### Autonomy Flags
+
+| Flag | What It Does |
+|------|-------------|
+| `--allow-all-tools` / `--yolo` | Allow all tools without approval prompts |
+| `--allow-tool='shell(git)'` | Allow a specific tool without prompts |
+| `--deny-tool='shell(rm)'` | Block a specific tool |
+| `--autopilot` | Enable autonomous continuation in prompt mode |
+
+---
+
 ## Common Workflows
 
 ### "I want to understand this code"
@@ -143,6 +207,13 @@ These features are available with GitHub Copilot Enterprise:
 1. Place cursor on a function
 2. `Ctrl+I` → `/doc`
 3. For batch: `Ctrl+Alt+I` → `Add docs to all public functions in #file:[file]`
+
+### "I want to use Copilot in the terminal"
+1. Run `copilot` from your project directory
+2. Describe your task in natural language
+3. Use `Shift+Tab` to enter plan mode for complex tasks
+4. Use `/init` to generate custom instructions for your repo
+5. After making changes, run `/review` for an AI code review or `/diff` to see all changes
 
 ---
 
