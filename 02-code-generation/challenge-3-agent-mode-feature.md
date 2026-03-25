@@ -139,6 +139,7 @@ Document your experience for the showcase:
 - **Use the plan phase** — The agent's initial plan is your best opportunity to redirect. It's cheaper to fix a plan than to fix code
 - **Terminal commands are powerful** — Agent mode can run builds, tests, and linters. Let it iterate on failures — it often self-corrects
 - **Break large tasks into sessions** — If the feature is too large for one session, do it in phases: "First, create the data model and service layer. Stop there."
+- **Use custom agents from the Dev Kit** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), try the `Developer` agent (spec-driven TDD focus) or `Beast Mode` agent (persistent autonomous execution with sequential thinking) for specialized agent personas
 
 ## Self-Assessment Checklist
 

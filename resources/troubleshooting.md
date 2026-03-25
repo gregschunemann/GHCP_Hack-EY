@@ -13,23 +13,18 @@ Common issues with GitHub Copilot in VS Code and how to fix them.
 
 ### Solutions
 
-1. **Check the extension is installed**
-   - Open Extensions (`Ctrl+Shift+X`)
-   - Search for "GitHub Copilot" — both the main extension and "GitHub Copilot Chat" should be installed and enabled
-
-2. **Sign in to GitHub**
+1. **Check VS Code sign-in status**
    - Click the Accounts icon (bottom-left sidebar)
-   - Sign in with your GitHub account that has Copilot access
-   - If already signed in, sign out and sign back in
+   - Confirm you are signed in with a GitHub account that has Copilot access
+   - If signed in but Copilot is not working, sign out and sign back in
 
-3. **Verify your Copilot license**
+2. **Verify your Copilot license**
    - Go to [github.com/settings/copilot](https://github.com/settings/copilot)
    - Confirm your subscription is active
    - For Enterprise: confirm your organization has assigned you a seat
 
-4. **Check extension version**
-   - Update both extensions to the latest version
-   - Reload VS Code after updating (`Ctrl+Shift+P` → "Developer: Reload Window")
+3. **Reload VS Code**
+   - Reload VS Code after sign-in changes (`Ctrl+Shift+P` → "Developer: Reload Window")
 
 ---
 
@@ -89,7 +84,7 @@ Common issues with GitHub Copilot in VS Code and how to fix them.
 
 5. **Check output logs**
    - Open Output panel (`Ctrl+Shift+U`)
-   - Select "GitHub Copilot Chat" from the dropdown
+   - Select "GitHub Copilot" or "Copilot Chat" from the dropdown
    - Look for error messages
 
 ---
@@ -106,8 +101,8 @@ Common issues with GitHub Copilot in VS Code and how to fix them.
    - Agent mode requires a recent VS Code version
    - Update VS Code: `Help` → `Check for Updates`
 
-2. **Check extension version**
-   - Update GitHub Copilot and Copilot Chat extensions to the latest version
+2. **Check VS Code sign-in**
+   - Ensure you are signed in with a GitHub account that has an active Copilot license
 
 3. **Check Copilot tier**
    - Agent mode availability may depend on your Copilot license tier
@@ -231,4 +226,4 @@ Common issues with GitHub Copilot in VS Code and how to fix them.
 1. **Check [GitHub Copilot Docs](https://docs.github.com/en/copilot)** — Official documentation with the latest information
 2. **Check [GitHub Status](https://www.githubstatus.com/)** — Verify Copilot services are operational
 3. **Ask a facilitator** — Event facilitators can help with venue-specific and license-specific issues
-4. **Check the Output panel** — `Ctrl+Shift+U` → Select "GitHub Copilot" or "GitHub Copilot Chat" for detailed logs
+4. **Check the Output panel** — `Ctrl+Shift+U` → Select "GitHub Copilot" or "Copilot Chat" for detailed logs

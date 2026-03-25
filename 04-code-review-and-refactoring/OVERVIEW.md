@@ -24,6 +24,17 @@ Pick these if your team wants to:
 - **`@workspace`** — Cross-file analysis for systemic issues
 - **Chat** (`Ctrl+Alt+I`) — Detailed code review conversations
 
+## AI-Assisted Dev Kit Resources
+
+If you've added the [AI-Assisted Dev Kit](../resources/AI-assisted_dev_kit/) to your repository, these resources are especially useful for this track:
+
+| Resource | Type | How to Use |
+|----------|------|------------|
+| `Developer` agent | Agent | Invoke in Agent mode for refactoring tasks with code quality checks, linting, and test validation |
+| `Beast Mode` agent | Agent | Use for complex, multi-file modernization tasks requiring persistent autonomous execution |
+
+> **Tip:** Run `/analyze-product` before starting these challenges — it populates `copilot-instructions.md` with your project's coding standards, which helps Copilot suggest refactors that match your team's style.
+
 ## Tips
 
 - **Review in stages** — First identify issues, then fix them one at a time. Don't try to refactor everything at once

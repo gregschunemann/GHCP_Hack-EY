@@ -95,6 +95,7 @@ Review the specification you've drafted. Are there any:
 - **Use `#file` liberally** — Point Copilot at specific files that are relevant: `#file:src/api/routes.ts What pattern should I follow for the new endpoint?`
 - **Iterate, don't regenerate** — Build the spec incrementally with follow-up questions rather than re-prompting from scratch
 - **Combine with Bing search** — Copilot Enterprise can search the web: ask about patterns, competitor approaches, or library comparisons
+- **Use the `/create-spec` prompt** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), run `/create-spec` in Agent mode for a structured, AI-driven spec workflow that includes task breakdown and acceptance criteria
 - **Copy to a real doc** — Once refined, paste the spec into a GitHub Issue, PR description, or design document where your team can review it
 
 ## Self-Assessment Checklist

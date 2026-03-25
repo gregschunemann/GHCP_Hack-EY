@@ -24,6 +24,19 @@ Pick these if your team wants to:
 - **Copilot Chat** (`Ctrl+Alt+I`) — Brainstorm approaches, generate larger code blocks, iterate on design
 - **Agent Mode** (`Ctrl+Shift+I`) — Autonomous multi-step coding: Copilot plans, creates files, edits code, runs commands
 
+## AI-Assisted Dev Kit Resources
+
+If you've added the [AI-Assisted Dev Kit](../resources/AI-assisted_dev_kit/) to your repository, these resources are especially useful for this track:
+
+| Resource | Type | How to Use |
+|----------|------|------------|
+| `Developer` agent | Agent | Invoke in Agent mode for TDD-driven feature implementation with built-in test generation and code quality checks |
+| `Beast Mode` agent | Agent | Use for complex, multi-step implementation tasks that require persistent autonomous execution |
+| `/dev` | Prompt | Run for a structured task-driven development workflow with context discovery, planning, and validation |
+| `/execute-tasks` | Prompt | Execute a pre-planned task list from your project's task tracker |
+
+> **Tip:** The `Developer` agent follows a spec-driven, test-first approach. Give it a clear feature description with acceptance criteria for the best results.
+
 ## Tips
 
 - **Write clear comments first** — Copilot's inline suggestions are dramatically better when preceded by a descriptive comment

@@ -125,6 +125,7 @@ Review the documentation you just generated. Check for:
 - **Generate, then edit** — Use Copilot for the first draft, then manually refine tone, add screenshots, and fix inaccuracies
 - **Test the getting started guide** — Actually follow the steps Copilot generated. You'll often find missing steps
 - **Add examples** — Ask Copilot to generate code examples for the README: `Generate 3 code examples showing common usage of this library`
+- **Use `/analyze-product` from the Dev Kit** — If you've set up the [AI-Assisted Dev Kit](../../resources/AI-assisted_dev_kit/), run `/analyze-product` first. It analyzes your codebase and auto-generates `copilot-instructions.md` with your tech stack, architecture, and coding conventions — this becomes the foundation for all AI-generated documentation
 - **Keep it DRY** — Don't duplicate information that's in code comments or config files. Link to them instead
 
 ## Self-Assessment Checklist
