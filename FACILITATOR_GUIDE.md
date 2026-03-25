@@ -10,7 +10,7 @@ This guide is for the event host(s) running the GitHub Copilot Hackathon. It cov
 - [ ] Confirm all attendees have active **GitHub Copilot Enterprise** licenses
 - [ ] Send pre-event communication with:
   - Link to this repository
-  - Instructions to install VS Code + Copilot extensions
+  - Instructions to install VS Code (Copilot is built in)
   - Request to **bring a codebase** (clone their repo locally before the event)
   - Suggestion to identify 1-2 backlog items (features, bugs, tech debt) to work on
 - [ ] Set up a communication channel (Teams/Slack) for event-day Q&A

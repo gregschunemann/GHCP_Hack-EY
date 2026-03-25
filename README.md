@@ -8,19 +8,6 @@ Welcome to the GitHub Copilot Hackathon! This is a full-day, hands-on event wher
 
 This is a **Bring Your Own Code (BYOC)** hackathon. You'll apply GitHub Copilot to your own repositories, roadmap features, and bug fixes. The challenges in this repo are workflows and prompt recipes you apply to *your* codebase — not toy exercises. By the end of the day, you'll have shipped real work while building deep fluency with Copilot.
 
-## Schedule
-
-| Time | Activity |
-|------|----------|
-| 9:00 - 9:30 | **Kickoff** — Welcome, Copilot feature demo, challenge walkthrough |
-| 9:30 - 10:00 | **Setup** — Verify Copilot access, warm-up exercises |
-| 10:00 - 12:00 | **Challenge Block 1** — Teams pick challenges and start hacking |
-| 12:00 - 12:45 | **Lunch** |
-| 12:45 - 1:00 | **Mid-Day Check-in** — Share early wins, ask questions |
-| 1:00 - 3:30 | **Challenge Block 2** — Continue hacking, try new challenge tracks |
-| 3:30 - 4:15 | **Team Showcase** — Each team demos what they built / learned |
-| 4:15 - 4:30 | **Retro & Wrap-up** — Key takeaways, feedback, next steps |
-
 ## How to Use This Repo
 
 ### 1. Start Here
@@ -45,6 +32,44 @@ Challenges are organized by SDLC phase. **You don't need to do them all** — pi
 - **[Copilot Cheat Sheet](resources/copilot-cheat-sheet.md)** — Keyboard shortcuts, slash commands, chat participants
 - **[Troubleshooting](resources/troubleshooting.md)** — Common issues and fixes
 
+### 4. Supercharge Your Repo with the AI-Assisted Dev Kit
+
+The [**AI-Assisted Dev Kit**](resources/AI-assisted_dev_kit/) is a collection of VS Code customization files that tailor GitHub Copilot's behavior to your team's workflows. Copy them into your own repository to get more targeted, higher-quality AI assistance.
+
+#### What's Inside
+
+| Folder | File Type | What It Does |
+|--------|-----------|--------------|
+| **agents/** | `.agent.md` | Custom agent personas (Architect, Developer, Tester, Beast Mode) that give Copilot a specialized role, toolset, and behavior when invoked |
+| **prompts/** | `.prompt.md` | Reusable prompt files you can run as slash commands (e.g., `/dev`, `/create-spec`, `/create-commit`) to kick off structured workflows |
+| **instructions/** | `.instructions.md` | Contextual rules that Copilot follows automatically when working with matching files — coding standards, commit conventions, task execution guidelines |
+| **instructions/languages/** | `.instructions.md` | Language-specific instructions for C#, Python, TypeScript, React, Blazor, Docker, and .NET Aspire |
+| **templates/** | `.md` | Reference templates for best practices, code style, and tech stack documentation |
+| **ISSUE_TEMPLATE/** | `.yml` | GitHub Issue templates for standardized bug reports and feature requests |
+| Root | `copilot-instructions.md` | Global Copilot instructions applied to every chat in the workspace |
+| Root | `pull_request_template.md` | Standardized PR template with checklists for type, testing, and review |
+
+#### How to Add These to Your Repository
+
+1. **Copy the folder** into your repo's `.github/` directory:
+   ```
+   your-repo/
+   ├── .github/
+   │   ├── copilot-instructions.md
+   │   ├── pull_request_template.md
+   │   ├── agents/
+   │   ├── prompts/
+   │   ├── instructions/
+   │   ├── ISSUE_TEMPLATE/
+   │   └── templates/
+   ```
+2. **Generate `copilot-instructions.md`** — run the `/analyze-product` prompt (from `prompts/analyze-product.prompt.md`) against your codebase. It analyzes your project and populates `copilot-instructions.md` with your tech stack, coding standards, and architecture conventions automatically.
+3. **Customize the language instructions** — keep only the ones relevant to your stack, and tweak rules to match your team's style.
+4. **Start using prompts** — in Copilot Chat, type `/` to see available prompt files, or reference them by name.
+5. **Invoke agents** — in Agent mode, mention an agent by name (e.g., `@Architect`) to activate its specialized persona.
+
+> **Tip:** These files work with VS Code's built-in Copilot customization support. No extensions or extra tooling required — just drop them in and go.
+
 ## Team Guidelines
 
 - **Team size:** 2-4 people recommended
@@ -55,10 +80,8 @@ Challenges are organized by SDLC phase. **You don't need to do them all** — pi
 
 ## Prerequisites
 
-- [VS Code](https://code.visualstudio.com/) installed
+- [VS Code](https://code.visualstudio.com/) installed (GitHub Copilot is built in)
 - GitHub Copilot Enterprise license active
-- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed
-- [GitHub Copilot Chat extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) installed
 - Your team's source code repository cloned locally
 
 See the [full setup guide](00-getting-started/SETUP.md) for detailed instructions.
