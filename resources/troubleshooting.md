@@ -200,14 +200,14 @@ Common issues with GitHub Copilot in VS Code and how to fix them.
 ## Performance Issues
 
 ### Symptoms
-- VS Code is slow after installing Copilot
+- VS Code is slow when using Copilot
 - High CPU or memory usage
 
 ### Solutions
 
 1. **Check extension host**
    - `Ctrl+Shift+P` → "Developer: Show Running Extensions"
-   - Check if Copilot extensions are using excessive resources
+   - Check if Copilot is using excessive resources
 
 2. **Reduce workspace size**
    - Exclude large folders from workspace (node_modules, build outputs) via `.vscode/settings.json`:

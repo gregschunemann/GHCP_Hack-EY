@@ -6,10 +6,8 @@ Complete this guide before diving into the hackathon challenges. Budget **30 min
 
 ## Prerequisites Checklist
 
-- [ ] **VS Code** installed ([download](https://code.visualstudio.com/))
+- [ ] **VS Code** installed ([download](https://code.visualstudio.com/)) — GitHub Copilot is built in, no separate extension needed
 - [ ] **GitHub account** with Copilot Enterprise license active
-- [ ] **GitHub Copilot extension** installed in VS Code ([install](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot))
-- [ ] **GitHub Copilot Chat extension** installed in VS Code ([install](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat))
 - [ ] **Your codebase** cloned locally and opened in VS Code
 - [ ] **Signed in** to GitHub in VS Code (check the Accounts icon in the bottom-left sidebar)
 
@@ -22,7 +20,7 @@ Complete this guide before diving into the hackathon challenges. Budget **30 min
 Look at the bottom-right of the VS Code status bar. You should see the **Copilot icon** (a sparkle/two-wing icon). If it's there, Copilot is active.
 
 - ✅ **Icon is present and not crossed out** — You're good to go
-- ❌ **Icon is missing** — Install the Copilot extension and sign in
+- ❌ **Icon is missing** — Sign in to your GitHub account with an active Copilot license
 - ❌ **Icon has a line through it** — Copilot is disabled for this language/file; click the icon to enable
 - ❌ **Icon shows an error** — Check [Troubleshooting](../resources/troubleshooting.md)
 
